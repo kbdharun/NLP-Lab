@@ -1,9 +1,5 @@
 {
-    "name": "Python NLTK Dev Container",
-    "image": "ghcr.io/kbdharun/nlp-lab-image:latest",
-    "forwardPorts": [],
-    "postCreateCommand": "pip install -r requirements.txt", // If you have a requirements.txt file for your project
-    "remoteUser": "vscode",
-    "workspaceFolder": "/workspace"
-  }
-  
+  "name": "Python NLTK Dev Container",
+  "image": "ghcr.io/kbdharun/nlp-lab-image:latest",
+  "forwardPorts": [8888]
+}
