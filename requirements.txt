@@ -1,4 +1,7 @@
+keras
 notebook
 nltk
+numpy
+pandas
 scikit-learn
-
+tensorflow
