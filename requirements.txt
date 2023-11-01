@@ -1,2 +1,4 @@
 notebook
 nltk
+scikit-learn
+
